@@ -8,7 +8,7 @@
     <meta name="description" content="The brand new, revolutinary Growtopia themed discord bot for all needs, not just growtopia!">
     <meta name="keywords" content="growtopia, discord, discord bot, bot, growtopia game, video game, game, Javascript">
     <meta name="author" content="Evil Kitty">
-    <meta name="robots" content="index, follow"> <!-- Tells search engines to index and follow links on the page -->
+    <meta name="robots" content="index, follow"> 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
 
 
 <body>
-<!----hero Section start---->
+<!----Content strip---->
     <div class="navbar1">
         <nav id="navbar">
             <h2 class="logo" data-aos="fade-left">Evil Kitty</h2>
@@ -56,7 +56,7 @@
         </div>
     </div>
 
-    <!----Team section start---->
+    <!----Features strip---->
     <section class="team">
         <div>
             <div class="team-text" data-aos="fade-left">
@@ -73,7 +73,7 @@
 
     </section>
 
-    <!----Service section start---->
+    <!----Statistics Strip---->
     <div class="service">
         <h6 id="stats" class="serid"></h6>
         <center><h2 data-aos="fade-left">Statistics</h2></center>
@@ -121,7 +121,7 @@
 
     </div>
 
-    <!----contact section start---->
+    <!----Contact Strip---->
     <div class="contact-me-top"> 
 
     </div>
@@ -132,7 +132,7 @@
        <center><a class="button-two" href="#" data-aos="fade-left">Inquire</a></center>
     </div>
 
-    <!------footer start------->
+    <!------footer stirp------->
     <footer>
         
         <p>Evil Kitty</p>
@@ -163,26 +163,14 @@
         menu.classList.toggle('active');
     }
 
-    // Close the menu when a menu item or button is clicked
     const menuItems = document.querySelectorAll('#menu li a, #menu li button');
     menuItems.forEach(item => {
         item.addEventListener('click', () => {
             const menu = document.getElementById('menu');
-            menu.classList.remove('active'); // Close the menu
+            menu.classList.remove('active'); 
         });
     });
 
-    </script>
-
-  
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-
-    
-
-
+    </script> 
 </body>
 </html>
