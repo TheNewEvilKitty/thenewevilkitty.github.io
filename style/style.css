@@ -325,7 +325,6 @@ button:active{
     border-radius: 7px;
     box-shadow: #000 2px 1px 1px, inset #000 2px 1px 1px;
     margin: 15px;
-    position: relative;
     overflow: hidden;
     text-align: center;
 }
@@ -468,6 +467,76 @@ footer p:nth-child(2){
     font: 14px;
 }
 
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+    z-index: 999;
+}
+
+.hamburger-menu .bar {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger-menu {
+        display: flex; 
+    }
+
+    #menu {
+        display: none; 
+        position: absolute;
+        top: 70px; 
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        text-align: center;
+    }
+
+    #menu li {
+        display: block;
+        margin: 15px 0;
+    }
+
+    #menu.active {
+        display: block;
+    }
+
+    #menu li button {
+        width: 100%;
+        padding: 12px 25px;
+        background-color: var(--secondary-color);
+        color: white;
+        border-radius: 30px;
+        border: 2px solid transparent;
+        font-weight: bold;
+        transition: 0.4s;
+    }
+
+    #menu li button:hover {
+        background-color: transparent;
+        border: 2px solid var(--secondary-color);
+        cursor: pointer;
+    }
+}
+
+#menu li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: var(--secondary-color);
+}
+
+
 @media screen and (max-width: 1200px) {
     .hero {
         background-position: top;
@@ -532,7 +601,6 @@ footer p:nth-child(2){
 
 @media screen and (max-width: 768px) {
     .hero {
-        background-size:auto;
         background-position: center;
     }
 
