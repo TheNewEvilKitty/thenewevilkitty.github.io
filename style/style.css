@@ -468,4 +468,190 @@ footer p:nth-child(2){
     font: 14px;
 }
 
+@media screen and (max-width: 1200px) {
+    .hero {
+        background-position: top;
+    }
 
+    .content {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .team img {
+        width: 350px;
+    }
+
+    .newslatter form {
+        width: 350px;
+    }
+
+    .title h2 {
+        font-size: 60px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .card i {
+        font-size: 45px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .pra p {
+        font-size: 14px;
+    }
+
+    footer p:nth-child(1) {
+        font-size: 26px;
+    }
+
+    footer p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .contact-me p {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        background-size:auto;
+        background-position: center;
+    }
+
+    .content {
+        width: 90%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .team img {
+        width: 250px;
+    }
+
+    .newslatter form {
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 50px;
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .card i {
+        font-size: 40px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .pra p {
+        font-size: 14px;
+    }
+
+    footer p:nth-child(1) {
+        font-size: 24px;
+    }
+
+    footer p:nth-child(2) {
+        font-size: 15px;
+    }
+
+    .contact-me p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        background-position: top;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .team img {
+        width: 200px;
+    }
+
+    .newslatter form {
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 40px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card i {
+        font-size: 35px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .pra p {
+        font-size: 14px;
+    }
+
+    footer p:nth-child(1) {
+        font-size: 22px;
+    }
+
+    footer p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .contact-me p {
+        font-size: 22px;
+    }
+}
